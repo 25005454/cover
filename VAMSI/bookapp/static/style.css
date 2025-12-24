@@ -1,0 +1,75 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: rgb(243, 240, 240);
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            width: 420px;
+            background: linear-gradient(to bottom, rgb(239, 145, 13));
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(14, 13, 13, 0.15);
+        }
+
+        h2 {
+            color: rgb(12, 12, 12);
+            margin-bottom: 10px;
+        }
+
+        .book-text {
+            font-size: 14px;
+            line-height: 1.6;
+            color: rgb(14, 14, 14);
+        }
+
+        .highlight {
+            color: rgb(6, 98, 144);
+            font-weight: bold;
+        }
+
+        .quote {
+            margin-top: 15px;
+            padding: 10px;
+            background: rgb(240, 240, 237);
+            font-style: italic;
+            font-size: 13px;
+        }
+
+        .author-box {
+            display: flex;
+            align-items: center;
+            background: rgb(12, 223, 202);
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .author-box img {
+            width: 60px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .author-text {
+            font-size: 13px;
+        }
+
+        .author-text strong {
+            color: rgb(157, 157, 8);
+        }
+
+        .footer {
+            margin-top: 20px;
+            background: rgb(236, 5, 5);
+            color: rgb(247, 243, 243);
+            padding: 10px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+    
